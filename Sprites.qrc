@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/sprites/tiles.png</file>
+        <file>assets/sprites/tiles.xml</file>
+        <file>assets/sprites/level.csv</file>
+    </qresource>
+</RCC>

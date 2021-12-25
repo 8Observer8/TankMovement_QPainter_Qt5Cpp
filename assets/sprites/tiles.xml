@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:33c1c68142376bc757a656aa2b19ca31:4054c3d7172f828d7baed119c1a39122:8c35c81d6c02a4e8a52d04a540c911af$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="tiles.png" width="120" height="120">
+    <sprite n="block.png" x="1" y="1" w="16" h="16" pX="0.5" pY="0.5"/>
+    <sprite n="brick1.png" x="19" y="1" w="8" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="brick2.png" x="29" y="1" w="8" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="bullet_down.png" x="39" y="1" w="6" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="bullet_left.png" x="47" y="1" w="8" h="6" pX="0.5" pY="0.5"/>
+    <sprite n="bullet_right.png" x="57" y="1" w="8" h="6" pX="0.5" pY="0.5"/>
+    <sprite n="bullet_up.png" x="67" y="1" w="6" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="grass.png" x="75" y="1" w="16" h="16" pX="0.5" pY="0.5"/>
+    <sprite n="gray_block.png" x="93" y="1" w="8" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="ice.png" x="103" y="1" w="16" h="16" pX="0.5" pY="0.5"/>
+    <sprite n="tank_yellow_small_down_01.png" x="1" y="19" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="tank_yellow_small_down_02.png" x="35" y="19" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="tank_yellow_small_left_01.png" x="69" y="19" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="tank_yellow_small_left_02.png" x="1" y="53" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="tank_yellow_small_right_01.png" x="35" y="53" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="tank_yellow_small_right_02.png" x="69" y="53" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="tank_yellow_small_up_01.png" x="1" y="87" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="tank_yellow_small_up_02.png" x="35" y="87" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="water0.png" x="69" y="87" w="16" h="16" pX="0.5" pY="0.5"/>
+    <sprite n="water1.png" x="87" y="87" w="16" h="16" pX="0.5" pY="0.5"/>
+</TextureAtlas>
